@@ -1,0 +1,119 @@
+html,body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin: 0px;
+    line-height: normal;
+}
+p {
+    color:white;
+}
+body {
+    background-image:url("../img/tile-dither.png") ;
+    background-color:var(--bg,gray);
+}
+.alignment{
+    justify-content: center;
+}
+.content-wrapper{
+    
+    max-width: 800px;
+    margin: 25px auto;
+    position:relative;
+}
+.header {
+    text-align: right;
+}
+.nav {
+    margin-right:5px;
+    margin-top: -2px;
+}
+.nav li {
+    display:inline-block;
+    padding-left:10px;
+}
+.nav li a {
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+}
+.nav li img {
+    padding-bottom: 15px;
+}
+.main{
+    max-width: 637px;
+    height: 402px;
+    background-image:url("../img/page-bg.png");
+    background-repeat: no-repeat;
+    background-position:right top;
+    margin-right:-15px;
+    margin-left:auto;
+    margin-top: -8px;
+}
+.main p {
+    padding-top: 23px;
+    margin-left:16%;  
+    font-size: small;
+}
+.main .flex {
+    margin-left:16%;
+}
+#char {    
+    width:230px;
+    
+}
+p pri {
+    color: var(--primary,white);
+    font-size: small;
+    font-weight: bold;
+    line-height: 2;
+}
+.portrait{
+    display:flex;
+    left:-26%;
+    position:absolute;
+    width:500px;
+    justify-content: right;
+    
+}
+.sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    overflow:scroll;
+    position:absolute;
+    right:-35px;
+    top: 132px;
+}
+.sidebar object {
+    width:315px;
+}
+.footer {
+    text-align: right;
+    margin-top: -20px;
+    margin-right:-12px;
+}
+.flex {
+    display:flex;
+    justify-content: left;
+    
+}
+.likes, .dislikes {
+    margin-top:-40px;
+    margin-left: -24px;
+    
+}
+.likes ul, .dislikes ul {
+    width:110px;
+    margin-top: -13px;
+    color:white;
+    font-size:small;
+    margin-left:-4px;
+}
+.likes pri, .dislikes pri {
+    line-height: 1;
+}
+.likes ul {
+    list-style:url("../img/bullet-heart.png");
+}
+.dislikes ul {
+    list-style:url("../img/bullet-cross.png");
+}
