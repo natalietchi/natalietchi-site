@@ -68,7 +68,7 @@ p pri {
 }
 .portrait{
     display:flex;
-    left:-26%;
+    left:-20%;
     position:absolute;
     width:500px;
     justify-content: right;
