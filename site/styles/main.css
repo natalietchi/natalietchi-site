@@ -13,7 +13,7 @@ p {
     color:white;
 }
 body {
-    background-image:url("../img/tile-dither.png") ;
+    background-image:url("/img/tile-dither.png") ;
     background-color:var(--bg,gray);
 }
 .alignment{
@@ -47,7 +47,7 @@ body {
 .main{
     max-width: 637px;
     height: 402px;
-    background-image:url("../img/page-bg.png");
+    background-image:url("/img/page-bg.png");
     background-repeat: no-repeat;
     background-position:right top;
     margin-right:-15px;
@@ -56,11 +56,15 @@ body {
 }
 .main p {
     padding-top: 23px;
-    margin-left:16%;  
+    margin-left:2%;  
     font-size: small;
 }
-.main .flex {
-    margin-left:16%;
+.main #char {
+    margin-left:14%;
+}
+.main #wide{
+    width:660px;
+    height: 290px;
 }
 #char {    
     width:330px;
@@ -120,7 +124,7 @@ a {
 }
 .likes, .dislikes {
     margin-top:-40px;
-    margin-left: -24px;
+    margin-left: -5px;
     
 }
 .likes ul, .dislikes ul {
@@ -134,8 +138,8 @@ a {
     line-height: 1;
 }
 .likes ul {
-    list-style:url("../img/bullet-heart.png");
+    list-style:url("/img/bullet-heart.png");
 }
 .dislikes ul {
-    list-style:url("../img/bullet-cross.png");
+    list-style:url("/img/bullet-cross.png");
 }
