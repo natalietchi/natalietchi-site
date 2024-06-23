@@ -1,3 +1,9 @@
+@font-face {
+    font-family: nat;
+    src: 
+    url(/fonts/Nat24-Regular.ttf) format("truetype");
+}
+
 html,body {
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
     margin: 0px;
@@ -65,6 +71,17 @@ p pri {
     font-size: small;
     font-weight: bold;
     line-height: 2;
+}
+handwrite {
+    font-family: nat;
+}
+p handwrite {
+    color: var(--bg,white);
+    font-size: 40pt;
+}
+.header handwrite {
+    color: black;
+    font-size: 50pt;
 }
 
 a {
