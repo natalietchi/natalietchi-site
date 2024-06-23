@@ -14,7 +14,7 @@ const icons = [
 ];
 
 const header = [
-    '<img src="/img/header.png"><div class="nav"><b><li><a href="/index.html">[home]</a></li><li><a href="/index.html">[about me]</a></li><li><a href="/chars.html">[characters]</a></li><li><a href="/index.html">[blog]</a></li><li><a href="/index.html">[downloads]</a></li></b></div>'
+    '<img src="/img/header.png"><div class="nav"><b><li><a href="/index.html">[home]</a></li><li><a href="/index.html">[about me]</a></li><li><a href="/chars/select.html">[characters]</a></li><li><a href="/index.html">[blog]</a></li><li><a href="/index.html">[downloads]</a></li></b></div>'
 ];
 document.getElementsByClassName("footer")[0].innerHTML ="<p><b>natalietchi</b> " + span + "</p>" + icons;
 document.getElementsByClassName("header")[0].innerHTML = header;
